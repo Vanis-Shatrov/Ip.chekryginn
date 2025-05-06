@@ -3,76 +3,112 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Голосовые и ЧАТ - роботы для Вашего бизнеса</title>
+  <title>ИТ-услуги и сопровождение</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f9f9f9;
-      color: #333;
+      font-family: 'Inter', sans-serif;
+      background-color: #f4f8ff;
+      color: #1a1a1a;
     }
     header {
-      background-color: #0055a5;
+      background: linear-gradient(to right, #003366, #0055a5);
       color: white;
-      padding: 2rem;
+      padding: 60px 20px;
       text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.25rem;
+    }
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px 20px;
     }
     section {
-      padding: 2rem;
-      max-width: 800px;
-      margin: auto;
+      margin-bottom: 60px;
+    }
+    h2 {
+      color: #003366;
+      font-size: 1.75rem;
+      margin-bottom: 20px;
     }
     .services ul {
-      list-style: none;
-      padding-left: 1rem;
+      padding-left: 20px;
+    }
+    .services li {
+      margin-bottom: 10px;
+      position: relative;
     }
     .services li::before {
-      content: "\2713 ";
-      color: green;
+      content: "✔";
+      position: absolute;
+      left: -20px;
+      color: #0055a5;
+    }
+    a {
+      color: #0055a5;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
     }
     footer {
+      background-color: #e1eaf7;
       text-align: center;
-      padding: 1rem;
-      background-color: #eee;
-      margin-top: 2rem;
+      padding: 30px 20px;
+      font-size: 0.9rem;
+      color: #333;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>ИТ-услуги и сопровождение</h1>
-    <p>Профессиональные решения для вашего бизнеса: CRM, интеграции</p>
+    <p>Профессиональные решения для вашего бизнеса: сайты, CRM, интеграции</p>
   </header>
 
-  <section class="about">
-    <h2>О нас</h2>
-    <p>Наша команда профессионально и, очень часто - креативно занимается вопросами оптимизации Бизнес-Процессов для Ваших компаний. Опишите Вашу Боль, и мы найдём неправильные решения для того, чтобы Вы забыли о ней навсегда</p>
-  </section>
+  <main>
+    <section class="about">
+      <h2>Обо мне</h2>
+      <p>Я — индивидуальный предприниматель, предоставляющий услуги по техническому сопровождению, разработке и интеграции ИТ-решений. Работаю с малым и средним бизнесом, помогая эффективно выстраивать цифровые процессы.</p>
+    </section>
 
-  <section class="services">
-    <h2>Услуги</h2>
-    <ul>
-      <li>Сопровождение, настройка, Интеграция CRM</li>
-      <li>создание и ведение сайтов</li>
-    </ul>
-  </section>
+    <section class="services">
+      <h2>Услуги</h2>
+      <ul>
+        <li>Техническое сопровождение проектов</li>
+        <li>Настройка и автоматизация бизнес-процессов</li>
+        <li>Интеграция сайтов и CRM-систем</li>
+        <li>Консалтинг и поддержка</li>
+      </ul>
+    </section>
 
-  <section class="form-section">
-    <h2>Оставьте заявку</h2>
-    <p>Заполните форму, и я свяжусь с вами для консультации.</p>
-    <!-- Здесь может быть вставлена форма обратной связи или ссылка на телеграм -->
-    <p><a href="mailto:info@yourdomain.ru">Написать на email</a> или <a href="https://t.me/yourusername" target="_blank">связаться через Telegram</a></p>
-  </section>
+    <section class="form-section">
+      <h2>Оставьте заявку</h2>
+      <p>Заполните форму, и я свяжусь с вами для консультации.</p>
+      <p><a href="mailto:info@yourdomain.ru">Написать на email</a> или <a href="https://t.me/yourusername" target="_blank">связаться через Telegram</a></p>
+    </section>
 
-  <section class="contacts">
-    <h2>Контакты</h2>
-    <p>Email: chekryginn@gmail.com</p>
-    <p>Телефон: +7 (919) 998-75-50</p>
-    <p>Telegram: @Chekryginn</p>
-  </section>
+    <section class="contacts">
+      <h2>Контакты</h2>
+      <p>Email: chekryginn@gmail.com</p>
+      <p>Телефон: +7 (919) 998-75-50</p>
+      <p>Telegram: @Chekryginn</p>
+    </section>
+  </main>
 
   <footer>
     <p>&copy; 2025 | Индивидуальный предприниматель | Все права защищены</p>
   </footer>
 </body>
 </html>
+
